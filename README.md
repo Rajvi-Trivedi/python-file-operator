@@ -1,4 +1,4 @@
-# File Operator – Personal Journal Manager
+# File Operator – Personal Journal Manager (Python Project)
 
 ## Project Overview
 
