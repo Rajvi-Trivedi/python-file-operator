@@ -1,103 +1,92 @@
-# File Operator – Personal Journal Manager (Python Project)
+# Personal Journal Manager (Python File Handling System)
 
 ## Project Overview
 
-File Operator is a console-based Python application designed to manage personal journal entries using file handling techniques.
+Personal Journal Manager is a console-based Python application designed to manage journal entries using file-based storage.
 
-The project demonstrates practical implementation of file operations, exception handling, and object-oriented programming principles in a structured, menu-driven system. It simulates a lightweight journaling application where users can store, retrieve, search, and delete textual records.
-
----
-
-## Purpose
-
-The primary objective of this project is to apply and strengthen understanding of:
-
-* File handling operations (read, write, append, delete)
-* Exception handling mechanisms
-* Object-oriented programming concepts
-* Date and time management
-* Persistent data storage
-* Menu-driven application design
-
-This project reflects real-world usage of file systems for structured data management.
+The system allows users to create, retrieve, search, and delete journal records through a structured, menu-driven interface. It demonstrates practical implementation of file handling, exception management, and object-oriented programming concepts.
 
 ---
 
-## Core Functionalities
+## Objective
+
+The project focuses on:
+
+* Implementing persistent data storage using text files
+* Applying structured file operations (read, write, append, delete)
+* Designing a class-based architecture
+* Handling runtime exceptions for reliable execution
+* Building an interactive console application
+
+---
+
+## Key Functionalities
 
 ### Add Entry
 
-* Appends a new journal entry to a text file
-* Automatically attaches a timestamp to each entry
+* Appends new journal entries to a file
+* Automatically attaches timestamps
 * Ensures persistent storage
 
 ### View Entries
 
-* Reads and displays all stored journal entries
-* Handles cases where no file exists
+* Displays all stored entries
+* Handles missing file scenarios gracefully
 
-### Search Entry
+### Search Entries
 
-* Searches journal entries using keywords or dates
+* Keyword and date-based search
 * Case-insensitive matching
-* Displays only relevant entries
+* Displays filtered results only
 
-### Delete Entries
+### Delete Journal
 
 * Deletes the journal file after confirmation
-* Ensures safe file removal
+* Prevents accidental removal
 
 ### Exit System
 
-* Provides controlled termination of the application
+* Controlled and clean application termination
 
 ---
 
-## Technical Concepts Applied
+## Technical Implementation
 
-* File handling (`open`, read, write, append)
-* File existence checking
+* File handling using `open()`
+* File existence validation
 * OS module integration
 * Date-time formatting
-* Exception handling (try-except blocks)
-* Class-based architecture
-* Interactive console navigation
+* Try–except exception handling
+* Class-based system design
+* Menu-driven navigation
 
 ---
 
-## Project Significance
+## System Highlights
 
-This project demonstrates structured implementation of file-based data management systems.
-
-It showcases:
-
-* Persistent data storage
-* Organized class design
-* Error handling for robust execution
-* Practical use of system modules
-* Clean separation of responsibilities within methods
-
-The application represents a foundational model for text-based logging or record management systems.
+* Persistent file-based storage
+* Structured object-oriented design
+* Error handling for stable execution
+* Clean separation of responsibilities
+* Practical simulation of a lightweight record management system
 
 ---
 
-## Future Enhancements
+## Future Improvements
 
-The system can be further enhanced by:
-
-* Encrypting journal entries for privacy
-* Implementing selective deletion of entries
-* Adding user authentication
-* Storing entries in structured formats (JSON/CSV)
-* Converting into a GUI or web-based journaling platform
-* Adding search filters by date range
+* Entry-level encryption for privacy
+* Selective entry deletion
+* JSON-based structured storage
+* User authentication layer
+* GUI or web-based interface
+* Date-range filtering
 
 ---
 
 ## Author
 
-Developed as part of practical learning in file handling, exception management, and object-oriented system design using Python.
+Rajvi Trivedi
+Data Analyst | Business Analyst
 
 ---
-
 
